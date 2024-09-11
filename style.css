@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(time.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clock-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#digital-clock{
+    font-family: monospace;
+    font-size: 5rem;
+    background: rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(21, 51, 4);
+    text-align: center;
+}
